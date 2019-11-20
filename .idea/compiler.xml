@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CloudEureka-8762" />
+        <module name="CloudConsumer-HystrixDashboard" />
+        <module name="CloudEureka-8760" />
+        <module name="CloudZuul" />
+        <module name="CloudConsumer-Feign" />
+        <module name="CloudProvider-8002" />
+        <module name="CloudProvider-Hystrix" />
+        <module name="CloudProvider" />
+        <module name="CloudEureka" />
+        <module name="CloudProvider-8003" />
+        <module name="CloudConsumer" />
+        <module name="Cloudapi" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CloudConsumer" options="" />
+      <module name="CloudConsumer-Feign" options="" />
+      <module name="CloudConsumer-HystrixDashboard" options="" />
+      <module name="CloudEureka" options="" />
+      <module name="CloudEureka-8760" options="" />
+      <module name="CloudEureka-8762" options="" />
+      <module name="CloudProvider" options="" />
+      <module name="CloudProvider-8002" options="" />
+      <module name="CloudProvider-8003" options="" />
+      <module name="CloudZuul" options="" />
+      <module name="Cloudapi" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+server:
+  port: 9001
+
+eureka:
+  instance:
+    instance-id: HystrixDashboard
+
+info:
+  app.name: HystrixDashboard
+  company.name: www.baidu.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+spring:
+  application:
+    name: HystrixDashboard

@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: cloudProvide
+server:
+  port: 8001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/,http://localhost:8760/eureka/
+  instance:
+    instance-id: provider-hystrix
+#    prefer-ip-address: true
+info:
+  app.name: CloudDemo
+  company.name: www.baidu.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
